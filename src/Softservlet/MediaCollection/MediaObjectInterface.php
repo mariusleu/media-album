@@ -1,4 +1,4 @@
-<?php namespace Softservlet\MediaAlbum;
+<?php namespace Softservlet\MediaCollection;
 
 use Softservlet\FileManager\File\FileInterface;
 
@@ -16,4 +16,5 @@ interface MediaObjectInterface extends FileInterface
 	 * @return string|int id
 	 */
 	public function getId();
+
 }

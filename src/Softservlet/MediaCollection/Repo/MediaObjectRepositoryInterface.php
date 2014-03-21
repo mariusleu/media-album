@@ -1,4 +1,4 @@
-<?php namespace Softservlet\MediaAlbum\Repo;
+<?php namespace Softservlet\MediaCollection\Repo;
 
 /**
  * @author Marius Leustean <marius@softservlet.com>
@@ -14,7 +14,8 @@ interface MediaObjectRepositoryInterface
 	 * @return array of MediaObjectInterface
 	 */
 	public function byId($id);
-
+	
+	
 	/**
 	 * @brief create new media object
 	 *
